@@ -1,0 +1,25 @@
+{
+  "name": "chat_tcp",
+  "version": "1.0.0",
+  "description": "Servidor socket feito em Node.js utilizando typescript",
+  "main": "server.ts",
+  "scripts": {
+    "test": "tsx src/client/client.ts",
+    "dev": "tsx src/server/server.ts"
+  },
+  "keywords": [
+    "Node.js",
+    "TypeScript",
+    "Sockets"
+  ],
+  "author": "Walisson (Sileniz)",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
